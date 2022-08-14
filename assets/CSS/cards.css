@@ -1,0 +1,39 @@
+.cards{
+    background: var(--cinza-muito-claro);
+    padding: 2rem 6rem;
+}
+.cards__title{
+    color: var(--azul-escuro);
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+.cards__descripition{
+    color: var(--azul-acinzentado);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+
+}
+.card{
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    
+}
+.card__container{
+    width: 25%;
+    
+}
+.card__title{
+    color: var(--azul-escuro);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.card__text{
+    color: var(--azul-acinzentado);
+    line-height: 2rem;
+    font-weight: 500;
+}
