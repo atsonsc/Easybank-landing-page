@@ -5,6 +5,7 @@
 .cards__title{
     color: var(--azul-escuro);
     font-size: 3rem;
+    font-weight: 500;
     margin-top: 4rem;
 }
 .cards__descripition{
@@ -30,10 +31,27 @@
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 2rem;
+    padding-top: 3.5rem;
 }
 
 .card__text{
     color: var(--azul-acinzentado);
     line-height: 2rem;
     font-weight: 500;
+}
+.card-1{
+    background-image: url(/easybank-landing-page-master/assets/images/icon-online.svg);
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(/easybank-landing-page-master/assets/images/icon-budgeting.svg);
+    background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url(/easybank-landing-page-master/assets/images/icon-onboarding.svg);
+    background-repeat: no-repeat;
+}
+.card-4{
+    background-image: url(/easybank-landing-page-master/assets/images/icon-api.svg);
+    background-repeat: no-repeat;
 }
