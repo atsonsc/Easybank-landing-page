@@ -59,7 +59,46 @@
 
 @media screen  and (max-width: 600px) {
     .cards{
-        display: none;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
     }
- 
+
+    .cards__descripition{
+        font-size: 1.3rem;
+        padding: 0 1rem;
+    }
+
+   
+
+    .card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .card__container{
+        width: 100%;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .card__text{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+
+    .card-1{
+        background-position: top;
+    }
+    .card-2{
+        background-position: top;
+    }
+    .card-3{
+        background-position: top;
+    }
+    .card-4{
+        background-position: top;
+    }
+   
 }
