@@ -1,5 +1,5 @@
 .articles{
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
     
 }
 
@@ -42,3 +42,9 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    .articles{
+        display: none;
+    }
+    
+}

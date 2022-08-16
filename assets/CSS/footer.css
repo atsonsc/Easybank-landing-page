@@ -7,7 +7,7 @@ footer{
 .logo{
     width: 200px;
     color: var(--branco);
-    background-color: var(--branco);
+    fill: var(--branco);
 }
 
 .footer__container--1{
@@ -55,4 +55,18 @@ footer{
 .footer__container--3 span{
     color: var(--branco);
     font-weight: 300;
+    
+}
+.btn__footer{
+    background: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
+    border: none;
+    border-radius: 2rem;
+    color: var(--branco);
+    padding: 1rem 2.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+        display: none;
+    }
 }

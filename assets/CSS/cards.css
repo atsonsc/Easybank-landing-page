@@ -24,6 +24,7 @@
 }
 .card__container{
     width: 25%;
+    padding: 0 1rem;
     
 }
 .card__title{
@@ -54,4 +55,11 @@
 .card-4{
     background-image: url(/easybank-landing-page-master/assets/images/icon-api.svg);
     background-repeat: no-repeat;
+}
+
+@media screen  and (max-width: 600px) {
+    .cards{
+        display: none;
+    }
+ 
 }

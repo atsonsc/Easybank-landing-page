@@ -36,3 +36,62 @@
 .btn:hover{
     cursor:pointer;
 }
+
+#hamburguer{
+    display: none;
+}
+
+@media screen  and (max-width: 600px){
+    .header{
+        padding: 1.5rem ;
+    }
+
+    .header img{
+        width: 150px;
+    }
+
+
+    .btn-mobile{
+      width: 40px;
+      height: 40px;
+      background-image: url(/easybank-landing-page-master/assets/images/icon-hamburger.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border: none;
+    }
+
+    .menu.active .btn-mobile{
+        background-image: url(/easybank-landing-page-master/assets/images/icon-close.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+    }
+
+    .menu__list{
+        display: none;
+    }
+   
+    .menu.active .menu__list{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0%;
+        background-color: var(--azul-acinzentado-claro);
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu__item{
+        padding: .7rem 0;
+        font-size: 1.4rem;
+    }
+    .btn{
+        display: none;
+    }
+
+    
+    
+}
+

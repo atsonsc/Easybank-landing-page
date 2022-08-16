@@ -27,7 +27,12 @@
 <body>
   <header class="header">
     <a href="#"><img src="./assets/images/logo.svg" alt="Logotipo of easybank"></a>
-    <nav class="menu">
+   
+    <nav class="menu" id="menu">
+      <button class="btn-mobile" id="btn-mobile" >
+        <span></span>
+      </button>
+      <div>
       <ul class="menu__list">
         <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
         <li class="menu__item"><a href="#" class="menu__link">About</a></li>
@@ -35,6 +40,7 @@
         <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
         <li class="menu__item"><a href="#" class="menu__link">Careers</a></li>
       </ul>
+    </div>
     </nav>
     <button class="btn">Request Invite</button>
   </header>
@@ -46,10 +52,11 @@
         <p class="intro__text">your financial life online. Your Easybank account will be a one-stop-shop
           for spending, saving, budgeting, investing, and much more.</p>
 
-        <button class="btn btn__intro">Request Invite</button>
+        <button class="btn__intro">Request Invite</button>
       </div>
       <div class="intro__container background">
         <img src="/easybank-landing-page-master/assets/images/image-mockups.png" alt="">
+        <img src="/easybank-landing-page-master/assets/images/" alt="">
       </div>
     </section>
     <section class="cards">
@@ -163,16 +170,19 @@
       </ul>
     </div>
     <div class="footer__container--3">
-      <button class="btn">Request Invite</button>
+      <button class="btn__footer">Request Invite</button>
       <span>© Easybank. All Rights Reserved</span>
     </div>
 
   </footer>
 
-  <div class="attribution">
+  <!--<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+-->
+
+<script src="./script.js"></script>
 </body>
 
 </html>
