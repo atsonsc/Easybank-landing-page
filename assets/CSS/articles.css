@@ -44,7 +44,32 @@
 
 @media screen and (max-width: 600px) {
     .articles{
-        display: none;
+        padding: 0;
+        background-color: var(--azul-acinzentado-claro);
     }
-    
+
+    .articles__title{
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .article__container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .article{
+        width: 100%;
+    }
+
+    .article img{
+        width: 90%;
+        border-radius: 15px 15px 0 0;
+        text-align: center;
+        margin:0 5%;
+    }
+
+    .article span, h3,p{
+        padding: 0 1.5rem;
+        font-size: 1.3rem;
+    }
+   
 }
