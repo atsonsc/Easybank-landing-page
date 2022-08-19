@@ -41,19 +41,19 @@
     font-weight: 500;
 }
 .card-1{
-    background-image: url(/easybank-landing-page-master/assets/images/icon-online.svg);
+    background-image: url(../images/icon-online.svg);
     background-repeat: no-repeat;
 }
 .card-2{
-    background-image: url(/easybank-landing-page-master/assets/images/icon-budgeting.svg);
+    background-image: url(../images/icon-budgeting.svg);
     background-repeat: no-repeat;
 }
 .card-3{
-    background-image: url(/easybank-landing-page-master/assets/images/icon-onboarding.svg);
+    background-image: url(../images/icon-onboarding.svg);
     background-repeat: no-repeat;
 }
 .card-4{
-    background-image: url(/easybank-landing-page-master/assets/images/icon-api.svg);
+    background-image: url(../images/icon-api.svg);
     background-repeat: no-repeat;
 }
 

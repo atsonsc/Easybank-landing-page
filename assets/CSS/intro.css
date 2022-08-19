@@ -28,7 +28,7 @@
     padding-right: 1rem;
 }
 
-.btn__intro{
+.btn-intro{
     background: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
     border: none;
     border-radius: 2rem;
@@ -66,7 +66,7 @@
         height: 50vh;
     }
     .background{
-        background-image: url(/easybank-landing-page-master/assets/images/bg-intro-mobile.svg);
+        background-image: url(../images/bg-intro-mobile.svg);
         background-position: center;
         background-size: cover;
     }
