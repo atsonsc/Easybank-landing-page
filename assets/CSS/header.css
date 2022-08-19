@@ -54,7 +54,7 @@
     .btn-mobile{
       width: 40px;
       height: 40px;
-      background-image: url(/easybank-landing-page-master/assets/images/icon-hamburger.svg);
+      background-image: url(../images/icon-hamburger.svg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -62,7 +62,7 @@
     }
 
     .menu.active .btn-mobile{
-        background-image: url(/easybank-landing-page-master/assets/images/icon-close.svg);
+        background-image: url(../images/icon-close.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; 
