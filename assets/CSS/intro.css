@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 2rem;
 }
 .intro__title{
     color: var(--azul-escuro);
@@ -28,7 +29,7 @@
     padding-right: 1rem;
 }
 
-.btn-intro{
+#btn-intro{
     background: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
     border: none;
     border-radius: 2rem;
@@ -40,7 +41,7 @@
 }
 
 .background{
-    background-image: url(/easybank-landing-page-master/assets/images/bg-intro-desktop.svg);
+    background-image: url(../images/bg-intro-desktop.svg);
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -48,7 +49,7 @@
 
 .background img{
     position: relative;
-    left: 6rem;
+    left: 6.1rem;
     bottom: 12rem;
    
  
